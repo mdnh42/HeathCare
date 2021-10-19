@@ -8,7 +8,7 @@ const Header = () => {
     const { user, logOut } = useAuth();
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light Header">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark Header">
             <div className="container-fluid">
                 <span className='logo'>
                     <Link className="navbar-brand" to='/'><h1>BALANCE <span className="text-warning">360</span></h1> </Link>
@@ -22,10 +22,10 @@ const Header = () => {
                             <NavLink className="nav-link" aria-current="page" to='/'>Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" aria-current="page" to='/rd'>Instructors</NavLink>
+                            <NavLink className="nav-link" aria-current="page" to='/instructors'>Instructors</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" aria-current="page" to='/rd'>Instructors</NavLink>
+                            <NavLink className="nav-link" aria-current="page" to='/about'>About</NavLink>
                         </li>
 
                         {

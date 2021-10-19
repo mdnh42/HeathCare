@@ -29,7 +29,7 @@
     margin: 3px auto;
 }
 .signin button{
-    color: rgba(20, 206, 128, 0.952);
+    color: orangered;
     border: none;
     width: 100%;
     border-radius: 7px;
@@ -44,5 +44,5 @@
     margin: 3em 0;
 }
 .signin a:hover{
-    color: #ed553b;
+    color: orangered;
 }

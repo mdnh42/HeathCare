@@ -48,10 +48,10 @@ const SignIn = () => {
                     <br />
                     <p>{error}</p>
                     <br />
-                    <input type="submit" value="Sign In" className='mt-3 btn btn-danger px-4 text-light' />
+                    <input type="submit" value="Sign In" className='mt-3 btn btn-primary px-4 text-light' />
                 </form>
-                <button onClick={() => handleGoogleLogin()}><BsGoogle /> Sign in with Google </button>
-                <Link to='/signup'>Create new account.</Link>
+                <button onClick={() => handleGoogleLogin()}> Sign in with <BsGoogle /> </button>
+                <Link to='/signup'>New User?</Link>
             </div>
         </div>
     );

@@ -9,6 +9,8 @@ import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import PrivateRoute from './components/RrivateRoute/PrivateRoute';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
+import Instructors from './components/Instructors/Instructors';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
           <Switch>
             <Route exact path='/'>
               <Home />
+            </Route>
+            <Route path='/instructors'>
+              <Instructors />
+            </Route>
+            <Route path='/about'>
+              <About />
             </Route>
             <Route path='/signin'>
               <SignIn />
