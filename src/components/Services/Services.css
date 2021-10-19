@@ -1,0 +1,23 @@
+.Services{
+    text-align: center;
+    margin: 3em 0;
+
+}
+.Services h2{
+    font-weight: 700;
+    border-bottom: 3px solid #ed553b;
+    display: inline-block;
+    margin: 1em;
+    
+}
+
+/* for large device */
+@media only screen and (min-width:1024px){
+    .services-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        margin: 0 9vw;
+        
+    }
+}

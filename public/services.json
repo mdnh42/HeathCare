@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Begginer Yoga",
+        "description": "Yoga as exercise is a physical activity consisting mainly of postures, often connected by flowing sequences, sometimes accompanied by breathing exercises, and frequently ending with relaxation lying down or meditation.",
+        "img": "https://i.ibb.co/QNzLsgR/begginer-yoga.jpg"
+
+    },
+    {
+        "id": 2,
+        "title": "Bikram Yoga",
+        "description": "Bikram Yoga is a system of hot yoga, a type of yoga as exercise, devised by Bikram Choudhury and based on the writings of B. C. Ghosh, that became popular in the early 1970s.",
+        "img": "https://i.ibb.co/Fx09tS3/Bikram-Yoga.jpg"
+
+    },
+    {
+        "id": 3,
+        "title": "Hatha Yoga",
+        "description": "Hatha yoga is the branch of yoga that typically comes to mind when you think of yoga in general terms. The practice involves breath, body, and mind, and classes are usually 45 minutes to 90 minutes of breathing, yoga poses, and meditation.",
+        "img": "https://i.ibb.co/4fLKhf9/Hatha-Yoga.jpg"
+
+    },
+    {
+        "id": 4,
+        "title": "Iyengar Yoga",
+        "description": "Iyengar Yoga is a form of yoga as exercise with a focus on the structural alignment of the physical body through the practice of asanas",
+        "img": "https://i.ibb.co/kDm2g0m/Iyengar-Yoga.jpg"
+
+    },
+    {
+        "id": 5,
+        "title": "Pregnant Yoga",
+        "description": "Modern yoga as exercise has often been taught by women to classes consisting mainly of women. This continued a tradition of gendered physical activity dating back to the early 20th century, with the Harmonic Gymnastics of Genevieve Stebbins in America and Mary Bagot Stack in Britain.",
+        "img": "https://i.ibb.co/xYYNzy0/pregnant-yoga.jpg"
+
+    },
+    {
+        "id": 6,
+        "title": "Anusara Yoga",
+        "description": "Anusara School of Hatha Yoga, also known as Anusara Yoga is the successor of a modern school of hatha yoga founded by American-born yoga teacher John Friend in 1997",
+        "img": "https://i.ibb.co/vL6srwW/Anusara-Yoga.jpg"
+
+    }
+]
+
+
+
+
+
+

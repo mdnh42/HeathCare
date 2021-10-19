@@ -1,0 +1,16 @@
+.Footer{
+    text-align: center;
+    background: #000;
+    color: white;
+    padding: 1em;
+}
+.footer p{
+    margin: 3px;
+}
+/* .footer .secial-links *{
+    margin: 10px;
+    font-size: 30px;
+    text-decoration: none;
+
+} */
+    

@@ -1,0 +1,22 @@
+.Banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 90vh;
+    padding: 0 10vw;
+}
+.Banner h1{
+    font-size: calc(1rem + 3vw);
+    font-weight: 700;
+}
+
+@media only screen and (max-width:980px) {
+    .Banner{
+        height: 70vw;
+    }
+    
+}

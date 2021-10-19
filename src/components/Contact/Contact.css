@@ -1,0 +1,21 @@
+.Contact{
+    text-align:  center;
+}
+.Contact div{
+    padding: 3em;
+}
+.Contact .bl-icon{
+    font-size: 50px;
+}
+
+
+/* for large device */
+@media only screen and (min-width:1024px){
+    .Contact .icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        margin: 0 9vw;
+        
+    }
+}

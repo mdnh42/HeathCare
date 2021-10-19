@@ -1,0 +1,8 @@
+.service-details{
+    margin: 3em 10vw;
+}
+.service-details img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 3em;
+}

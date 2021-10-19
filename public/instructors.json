@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1, 
+        "name": "Alvi Setty",
+        "Address": "New York",
+        "img": "https://i.ibb.co/MB4xw0L/instructor-3.jpg"
+    },
+    {
+        "id": 2, 
+        "name": "D Maria",
+        "Address": "Russian",
+        "img": "https://i.ibb.co/Yff6F03/instructor-4.jpg"
+    },
+    {
+        "id": 3, 
+        "name": "Seulie",
+        "Address": "Indian",
+        "img": "https://i.ibb.co/MPZGCPP/instructor-1.jpg"
+    },
+    {
+        "id": 4, 
+        "name": "Alvi Nath",
+        "Address": "New York",
+        "img": "https://i.ibb.co/dWFH2Jp/instructor-2.jpg"
+    }
+]
+
+
+
+

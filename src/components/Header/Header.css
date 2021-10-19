@@ -1,0 +1,31 @@
+.Header{
+    background-color: #232D39 !important;
+    padding: 10px 60px;
+}
+.Header a{
+    color: white !important;
+}
+.Header .logo{
+    margin-right: auto;
+    display: flex;
+    margin-top: 3px;
+    align-items: center;
+}
+.wf-btn-primary{
+    border-radius: 40px;
+    padding: .25em 1.3em;
+    background-color: #ffc107;
+    border: none;
+    color: white;
+}
+
+.wf-btn-secondary{
+    padding: .2em 1.3em ;
+    border: 2px solid #ffc107;
+    border-radius: 20px;
+    color: white;
+    background: none ;
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
