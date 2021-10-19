@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBs30IdlxpKaX5008Lv1D5dnDH-hsvPEak",
-    authDomain: "assignment10-41d49.firebaseapp.com",
-    projectId: "assignment10-41d49",
-    storageBucket: "assignment10-41d49.appspot.com",
-    messagingSenderId: "524229555104",
-    appId: "1:524229555104:web:6a83144588386ae0422ac5"
+    apiKey: "AIzaSyCOyamNLtrWmYxwylB0ZJwEWj38A7Qwv3E",
+  authDomain: "balance-360-4d0a4.firebaseapp.com",
+  projectId: "balance-360-4d0a4",
+  storageBucket: "balance-360-4d0a4.appspot.com",
+  messagingSenderId: "541466765206",
+  appId: "1:541466765206:web:2bc652810603e5fb175fb7"
 }
 
 export default firebaseConfig;
