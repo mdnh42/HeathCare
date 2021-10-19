@@ -16,12 +16,12 @@ const Instructors = () => {
             <div className="container" style={{ marginTop: "100px" }}>
                 <h1 className="text-center my-5 text-warning" > Our Instructors </h1>
                 <p className="text-center my-5 text-secondary"> Break into a new field like information technology or data science. No prior experience necessary to get started. </p>
-                <Row xs={1} md={2} className="g-4 mb-5">
+                <Row xs={2} md={2} lg={4} className="g-3 mb-5 mx-3">
                     {
                         instructors.map(instructor =>
                             <Col>
                                 <Card>
-                                    <Card.Img variant="top" src={instructor.img} style={{ width: "542px", height: "300px" }} />
+                                    <Card.Img className="img-fluid" variant="top" src={instructor.img} style={{ width: "300px", height: "320px" }} />
                                     <Card.Body>
                                         <Card.Title>{instructor.name}</Card.Title>
                                         <div>Address: {instructor.Address}</div>

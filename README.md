@@ -1,6 +1,6 @@
-## To Do
-* Banner with typerWriter
-* Gallery with pixel 
-* email pass required 
-* try to use update user profile
+## Balance 360 
+* This website health fitting websites. 
+* Balance 360 will provider many yoga classes for you. 
+* Begginner to Advanced Class here. 
+* Superv Instructor leading from various country. 
 

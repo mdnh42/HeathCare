@@ -29,6 +29,14 @@ const About = () => {
                     <Col><h1>Our Vision</h1>
                         <p>
                             There are broadly two kinds of theories on the origins of yoga. The linear model argues that yoga has Aryan origins, as reflected in the Vedic textual corpus, and influenced Buddhism; according to Crangle, this model is mainly supported by Hindu scholars. The synthesis model argues that yoga is a synthesis of indigenous, non-Aryan practices with Aryan elements; this model is favoured in western scholarship.
+                            <br/>
+                            The synthesis model argues that yoga is a synthesis of indigenous, non-Aryan practices with Aryan elements; this model is favoured in western scholarship.
+                            <br/>
+                            The synthesis model argues that yoga is a synthesis of indigenous, non-Aryan practices with Aryan elements; this model is favoured in western scholarship.
+                            <br/>
+                            The synthesis model argues that yoga is a synthesis of indigenous, non-Aryan practices with Aryan elements; this model is favoured in western scholarship.
+                            <br/>
+                            The synthesis model argues that yoga is a synthesis of indigenous, non-Aryan practices with Aryan elements; this model is favoured in western scholarship.
                         </p></Col>
                 </Row>
             </Container>
