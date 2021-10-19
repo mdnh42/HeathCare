@@ -9,7 +9,7 @@ const Service = ({ id, title, description, img }) => {
             <img src={img} alt={title} width='100%' />
             <h3>{title}</h3>
             <p>{description.substr(0, 100) + '...'}</p>
-            <NavLink to={`/service-details/${id}`} className='bl-btn-secondary'>Buy Now</NavLink>
+            <NavLink to={`/service-details/${id}`} className='bg-warning px-3 py-1 rounded text-light'>Buy Now</NavLink>
         </div>
     );
 };
