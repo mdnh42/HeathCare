@@ -11,19 +11,17 @@ const Contact = () => {
             <div className="icons">
 
                 <div>
-                    <span className='bl-icon'><AiFillHome /></span>
-
-                    <h4>Address: dfsasfasf</h4>
-                </div>
-                <div>
                     <span className='bl-icon'><AiFillPhone /></span>
-
-                    <h4>Phone: 01812345678</h4>
+                    <h4> <span className="text-primary"> +00 34 234 231 </span></h4>
+                    
                 </div>
                 <div>
                     <span className='bl-icon'><MdEmail /></span>
-
-                    <h4>Email: wefit2021@gmail.com</h4>
+                    <h4><span className="text-primary"> mail@balance.360.com </span></h4>
+                </div>
+                <div>
+                    <span className='bl-icon'><AiFillHome /></span>
+                    <h4> <span className="text-primary"> New York, USA </span></h4>
                 </div>
             </div>
         </div>

@@ -15,9 +15,7 @@
     border: 1px solid gray;
     margin-bottom: 1em ;
 }
-.Subscribe button{
-    color: tomato;
-}
+
 
 /* for large device */
 @media only screen and (min-width:1024px){

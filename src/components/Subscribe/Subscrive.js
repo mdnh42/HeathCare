@@ -12,7 +12,7 @@ const Subscrive = () => {
                 <p>Email: </p>
                 <input type="email" placeholder='Enter your email' id="" />
                 <br />
-                <button className='bl-btn-secondary'>  Subscribe  </button>
+                <button className='bl-btn-warning'>  Subscribe  </button>
             </form>
         </div>
     );
