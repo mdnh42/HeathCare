@@ -30,7 +30,7 @@ const SignUp = () => {
                     setError('')
                     history.push(redirectURI)
                 })
-                .catch(err => setError(err))
+                .catch(err => setError(err.message))
                 .finally(() => setIsLoading(false))
         }
         else {

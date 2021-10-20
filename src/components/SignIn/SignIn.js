@@ -29,7 +29,16 @@ const SignIn = () => {
                     setError('')
                     history.push(redirectURI)
                 })
-                .catch(err => setError(err))
+                .catch(err =>{
+                    if(err.message==='Firebase: Error (auth/user-not-found).'){
+                        setError('You do not have any account woth this email')
+                    }
+                    else{
+                        setError(err.message)
+                    }
+                    
+                    
+                })
                 .finally(() => setIsLoading(false))
         }
         else {
@@ -48,7 +57,7 @@ const SignIn = () => {
                     <p>Password : </p>
                     <input onChange={e => setPass(e.target.value)} type="password" required placeholder='Enter password' />
                     <br />
-                    <p>{error}</p>
+                    <p className='text-danger'>{error}</p>
                     <br />
                     <input type="submit" value="Sign In" className='mt-3 btn btn-primary px-4 text-light' />
                 </form>
