@@ -25,10 +25,12 @@ const SignIn = () => {
         e.preventDefault();
         if (pass.length >= 6) {
             signInWithEmail(email, pass)
-                .then(result => history.push(redirectURI))
+                .then(result => {
+                    setError('')
+                    history.push(redirectURI)
+                })
                 .catch(err => setError(err))
                 .finally(() => setIsLoading(false))
-            setError('')
         }
         else {
             setError('Password must be atleast 6 character long')
@@ -41,10 +43,10 @@ const SignIn = () => {
                 <h2>Sign In</h2>
                 <form onSubmit={handleSignInWithEmailPass}>
                     <p>Email : </p>
-                    <input onChange={e => setEmail(e.target.value)} type="email" placeholder='Enter your email' />
+                    <input onChange={e => setEmail(e.target.value)} type="email" required placeholder='Enter your email' />
                     <br />
                     <p>Password : </p>
-                    <input onChange={e => setPass(e.target.value)} type="password" placeholder='Enter password' />
+                    <input onChange={e => setPass(e.target.value)} type="password" required placeholder='Enter password' />
                     <br />
                     <p>{error}</p>
                     <br />

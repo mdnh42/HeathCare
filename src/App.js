@@ -26,9 +26,9 @@ function App() {
             <PrivateRoute path='/instructors'>
               <Instructors />
             </PrivateRoute>
-            <Route path='/about'>
+            <PrivateRoute path='/about'>
               <About />
-            </Route>
+            </PrivateRoute>
             <Route path='/signin'>
               <SignIn />
             </Route>
